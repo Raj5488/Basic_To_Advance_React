@@ -2,10 +2,22 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [counter, setCounter] = useState(0)
+  let [counter, setCounter] = useState(15)
 
   const addValue = () => {
-    if(counter < 20){
+    if(counter < 50){
+
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)
+      
+
+      // find what is output
+
+      setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)
       setCounter(counter + 1)
     }
   }
